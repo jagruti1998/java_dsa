@@ -6,7 +6,7 @@ My notes on Data Structures, Algorithms and Interview Prep
 
 Brief description or introduction to the topic.
 
-- [arrays](arrays)
+- [arrays](src/arrays)
 - [basics](basics)
 - [basic_maths](basic_maths)
 - [basic_recursion](basic_recursion)
