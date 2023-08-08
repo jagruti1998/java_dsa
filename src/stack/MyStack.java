@@ -1,5 +1,5 @@
 package stack;
-
+//Stack Using Queue
 import java.util.EmptyStackException;
 import java.util.LinkedList;
 import java.util.Queue;
