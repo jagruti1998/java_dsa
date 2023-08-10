@@ -1,6 +1,6 @@
 package arrays;
 import java.util.Scanner;
-
+//Search insert position in a sorted array
 public class SearchInsertPosition {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
