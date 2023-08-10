@@ -1,6 +1,6 @@
 package arrays;
 import java.util.Scanner;
-
+//Binary search in an array
 public class BinarySearch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
