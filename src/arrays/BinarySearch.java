@@ -17,7 +17,7 @@ public class BinarySearch {
         System.out.print("Enter the target element to search for: ");
         int target = scanner.nextInt();
 
-        Solution solution = new Solution();
+        Solution2 solution = new Solution2();
         int result = solution.search(nums, target);
 
         if (result != -1) {
@@ -30,7 +30,7 @@ public class BinarySearch {
     }
 }
 
-class Solution {
+class Solution2 {
     public int search(int[] nums, int target) {
         int start = 0, end = nums.length - 1;
         while (start <= end) {
