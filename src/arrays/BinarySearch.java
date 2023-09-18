@@ -26,7 +26,6 @@ public class BinarySearch {
             System.out.println("Target element not found in the array.");
         }
 
-        scanner.close();
     }
 }
 

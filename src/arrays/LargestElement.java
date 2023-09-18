@@ -10,6 +10,7 @@ public class LargestElement {
                 max=a[i];
             }
 }            System.out.println(max);
+
     }
 
     public class SmallestElement {

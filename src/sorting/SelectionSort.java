@@ -1,6 +1,6 @@
 package sorting;
 
-public class SelectionSort {
+public class  SelectionSort {
     public static void main(String[] args) {
 
         int arr[] = {12, 11, 5, 13, 3, 34};
