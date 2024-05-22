@@ -1,15 +1,5 @@
 package linkedList;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    public ListNode(int val) {
-        this.val = val;
-        this.next = null;
-    }
-}
-
 public class FindNthFromEnd {
 
     public static ListNode findNthFromEnd(ListNode head, int n) {

@@ -5,6 +5,7 @@ public class MergeTwoSortedLists {
         int val;
         ListNode next;
 
+
         ListNode() {
         }
 

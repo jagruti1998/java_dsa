@@ -1,7 +1,7 @@
 package arrays;
 import java.util.Scanner;
 
-public class firstAndLastPositionOfTargetOccurrence {
+public class FirstAndLastPositionOfTargetOccurrence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,18 +17,15 @@ public class firstAndLastPositionOfTargetOccurrence {
         System.out.print("Enter the target element: ");
         int target = scanner.nextInt();
 
-        Solution solution = new Solution();
-        int[] result = solution.searchRange(nums, target);
+        int[] result = searchRange(nums, target);
 
         System.out.println("First occurrence of the target: " + result[0]);
         System.out.println("Last occurrence of the target: " + result[1]);
 
         scanner.close();
     }
-}
 
-class Solution {
-    public int first(int[] nums, int target) {
+    public static int first(int[] nums, int target) {
         int ans = -1;
         int low = 0, high = nums.length - 1;
         while (low <= high) {
@@ -45,7 +42,7 @@ class Solution {
         return ans;
     }
 
-    public int last(int[] nums, int target) {
+    public static int last(int[] nums, int target) {
         int ans = -1;
         int low = 0, high = nums.length - 1;
         while (low <= high) {
@@ -62,7 +59,7 @@ class Solution {
         return ans;
     }
 
-    public int[] searchRange(int[] nums, int target) {
+    public static int[] searchRange(int[] nums, int target) {
         return new int[]{first(nums, target), last(nums, target)};
     }
 }

@@ -1,4 +1,4 @@
-package arrays;
+package lowes;
 
 public class MoveZerosEnd {
         public static void main(String[] args) {
